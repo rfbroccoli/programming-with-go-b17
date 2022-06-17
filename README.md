@@ -6,14 +6,14 @@
 - [x] constants
 - [x] outputs
 - [x] data types
-- [ ] arrays
-- [ ] slices
-- [*] operators
+- [x] arrays
+- [x] slices
+- [x] operators
 - [ ] inputs
-- [*] conditions
+- [x] conditions
 - [ ] switch
 - [ ] loops
-- [ ] functions
+- [x] functions
 - [ ] loops
 - [ ] struct
 - [ ] maps
