@@ -8,9 +8,9 @@
 - [x] data types
 - [ ] arrays
 - [ ] slices
-- [*] operators
+- [x] operators
 - [ ] inputs
-- [*] conditions
+- [x] conditions
 - [ ] switch
 - [ ] loops
 - [ ] functions
