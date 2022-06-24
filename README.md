@@ -9,12 +9,11 @@
 - [x] arrays
 - [x] slices
 - [x] operators
-- [ ] inputs
+- [x] inputs
 - [x] conditions
-- [ ] switch
-- [ ] loops
+- [x] switch
+- [x] loops
 - [x] functions
-- [ ] loops
 - [ ] struct
 - [ ] maps
 
