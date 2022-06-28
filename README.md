@@ -19,8 +19,9 @@
 
 
 # projects
-- [ ] rock paper scissors
-- [ ] guess the number
+- [x] head or tails
+- [x] rock paper scissors
+- [x] guess the number
 - [ ] hangman
 - [ ] madlibs
 - [ ] quiz
