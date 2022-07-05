@@ -7,7 +7,20 @@ import (
 	"time"
 )
 
-var choices [3]string = [3]string{"ROCK", "PAPER", "SCISSORS"}
+// var choices [3]string = [3]string{"ROCK", "PAPER", "SCISSORS"}
+// type choicesStruct struct {
+// 	R string
+// 	P string
+// 	S string
+// }
+
+// var choices = choicesStruct{R: "ROCK", P: "PAPER", S: "SCISSORS"}
+
+var choices = struct {
+	R string
+	P string
+	S string
+}{"ROCK", "PAPER", "SCISSORS"}
 
 func getComputerChoice() string {
 
@@ -15,8 +28,18 @@ func getComputerChoice() string {
 	seed := rand.NewSource(nowUnix)
 	newRand := rand.New(seed)
 	computerChoiceIndex := newRand.Intn(3)
-	computerChoice := choices[computerChoiceIndex]
-	return computerChoice
+	// computerChoice := choices[computerChoiceIndex]
+
+	switch computerChoiceIndex {
+	case 0:
+		return choices.R
+	case 1:
+		return choices.P
+	case 2:
+		return choices.S
+	default:
+		return ""
+	}
 }
 
 func getUserChoice() string {
@@ -30,11 +53,11 @@ func getUserChoice() string {
 	// fmt.Printf("userChoice: %v\n", userChoice)
 	switch userChoice {
 	case "R":
-		userChoice = choices[0]
+		userChoice = choices.R
 	case "P":
-		userChoice = choices[1]
+		userChoice = choices.P
 	case "S":
-		userChoice = choices[2]
+		userChoice = choices.S
 	default:
 		userChoice = ""
 		fmt.Println("Invalid move.")
@@ -54,7 +77,7 @@ func main() {
 	fmt.Printf("you: %v vs computer: %v\n", userChoice, computerChoice)
 	if userChoice == computerChoice {
 		fmt.Println("Draw.")
-	} else if (userChoice == choices[0] && computerChoice == choices[2]) || (userChoice == choices[1] && computerChoice == choices[0]) || (userChoice == choices[2] && computerChoice == choices[1]) {
+	} else if (userChoice == choices.R && computerChoice == choices.S) || (userChoice == choices.P && computerChoice == choices.R) || (userChoice == choices.S && computerChoice == choices.P) {
 		fmt.Println("You win!")
 	} else {
 		fmt.Println("You lose. :(")
