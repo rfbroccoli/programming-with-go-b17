@@ -14,8 +14,8 @@
 - [x] switch
 - [x] loops
 - [x] functions
-- [ ] struct
-- [ ] maps
+- [x] struct
+- [x] maps
 
 
 # projects
