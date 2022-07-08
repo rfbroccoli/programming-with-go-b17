@@ -23,6 +23,7 @@
 - [x] rock paper scissors
 - [x] guess the number
 - [ ] hangman
+- [ ] password generator
 - [ ] madlibs
 - [ ] quiz
 - [ ] blackjack
