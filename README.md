@@ -22,7 +22,7 @@
 - [x] head or tails
 - [x] rock paper scissors
 - [x] guess the number
-- [ ] hangman
+- [x] hangman
 - [ ] password generator
 - [ ] madlibs
 - [ ] quiz
