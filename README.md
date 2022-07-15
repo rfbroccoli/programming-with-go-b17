@@ -22,6 +22,7 @@
 - [x] head or tails
 - [x] rock paper scissors
 - [x] guess the number
+- [x] bmi calculator
 - [x] hangman
 - [ ] password generator
 - [ ] madlibs

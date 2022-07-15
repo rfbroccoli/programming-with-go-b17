@@ -1,7 +1,9 @@
 
 # topics covered
 1. strings 
-2. hangman part 2
+2. read files
+3. hangman part 3
+4. embed 
 
 # commands in terminal
 |commands|example|descriptions|
