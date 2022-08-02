@@ -20,5 +20,4 @@
 |`go build`|`go build hello.go`|to **build**/compile a binary from a source code|
 |`GOOS GOARCH`|`GOOS=linux GOARCH=amd64 go build hello.go`|to compile a binary for a specific **o**peration **s**ystem and a specific **arch**itecture|
 |`go doc`|`go doc fmt`|to show **doc**umentations|
-
 |`go mod`|`go mod init github.com/rfbroccoli/hello`|to **init***ialize a module|
