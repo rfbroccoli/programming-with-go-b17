@@ -24,9 +24,9 @@
 - [x] guess the number
 - [x] bmi calculator
 - [x] hangman
-- [ ] password generator
-- [ ] madlibs
-- [ ] quiz
-- [ ] blackjack
-- [ ] choose your own adventure
-- [ ] naruto api
+- [x] password generator
+- [x] madlibs
+- [x] quiz
+- [x] blackjack
+- [x] choose your own adventure
+- [x] naruto api
